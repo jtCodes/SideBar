@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75084F1B2E46FA02C8E182A9 /* Pods_SideBarTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1318782DDEDA453F9913A6E7 /* Pods_SideBarTests.framework */; };
 		ED748952217E5D7800D79A71 /* SideBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED748948217E5D7800D79A71 /* SideBar.framework */; };
 		ED748957217E5D7800D79A71 /* SideBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED748956217E5D7800D79A71 /* SideBarTests.swift */; };
 		ED748959217E5D7800D79A71 /* SideBar.h in Headers */ = {isa = PBXBuildFile; fileRef = ED74894B217E5D7800D79A71 /* SideBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED748963217E8B1700D79A71 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED748962217E8B1700D79A71 /* MainView.swift */; };
+		ED748965217E8B3C00D79A71 /* SideBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED748964217E8B3C00D79A71 /* SideBarView.swift */; };
+		ED748968217E8B9B00D79A71 /* SideBarTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED748966217E8B9800D79A71 /* SideBarTableCell.swift */; };
+		ED748978217E8F2300D79A71 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED748977217E8F2300D79A71 /* SnapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +28,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1318782DDEDA453F9913A6E7 /* Pods_SideBarTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SideBarTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB22E9BB293EF9E8114BEB5 /* Pods-SideBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SideBar/Pods-SideBar.debug.xcconfig"; sourceTree = "<group>"; };
+		5108B13141E141B4B6A5AFBE /* Pods-SideBarTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideBarTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SideBarTests/Pods-SideBarTests.release.xcconfig"; sourceTree = "<group>"; };
+		7A1EEC1D6BC1E6FEDBADE122 /* Pods_SideBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SideBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88DAFD62487B65BDD33A77E4 /* Pods-SideBarTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideBarTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SideBarTests/Pods-SideBarTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6069A3282282D7D8F45842A /* Pods-SideBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SideBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-SideBar/Pods-SideBar.release.xcconfig"; sourceTree = "<group>"; };
 		ED748948217E5D7800D79A71 /* SideBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SideBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED74894B217E5D7800D79A71 /* SideBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SideBar.h; sourceTree = "<group>"; };
 		ED74894C217E5D7800D79A71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED748951217E5D7800D79A71 /* SideBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SideBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED748956217E5D7800D79A71 /* SideBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarTests.swift; sourceTree = "<group>"; };
 		ED748958217E5D7800D79A71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED748962217E8B1700D79A71 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		ED748964217E8B3C00D79A71 /* SideBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarView.swift; sourceTree = "<group>"; };
+		ED748966217E8B9800D79A71 /* SideBarTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarTableCell.swift; sourceTree = "<group>"; };
+		ED748977217E8F2300D79A71 /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED748978217E8F2300D79A71 /* SnapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,18 +60,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED748952217E5D7800D79A71 /* SideBar.framework in Frameworks */,
+				75084F1B2E46FA02C8E182A9 /* Pods_SideBarTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28E1CEFACCEE89E7D28A764F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FB22E9BB293EF9E8114BEB5 /* Pods-SideBar.debug.xcconfig */,
+				A6069A3282282D7D8F45842A /* Pods-SideBar.release.xcconfig */,
+				88DAFD62487B65BDD33A77E4 /* Pods-SideBarTests.debug.xcconfig */,
+				5108B13141E141B4B6A5AFBE /* Pods-SideBarTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A56722F824CE934895F22AF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED748977217E8F2300D79A71 /* SnapKit.framework */,
+				7A1EEC1D6BC1E6FEDBADE122 /* Pods_SideBar.framework */,
+				1318782DDEDA453F9913A6E7 /* Pods_SideBarTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ED74893E217E5D7800D79A71 = {
 			isa = PBXGroup;
 			children = (
 				ED74894A217E5D7800D79A71 /* SideBar */,
 				ED748955217E5D7800D79A71 /* SideBarTests */,
 				ED748949217E5D7800D79A71 /* Products */,
+				28E1CEFACCEE89E7D28A764F /* Pods */,
+				A56722F824CE934895F22AF2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +113,9 @@
 			children = (
 				ED74894B217E5D7800D79A71 /* SideBar.h */,
 				ED74894C217E5D7800D79A71 /* Info.plist */,
+				ED748962217E8B1700D79A71 /* MainView.swift */,
+				ED748966217E8B9800D79A71 /* SideBarTableCell.swift */,
+				ED748964217E8B3C00D79A71 /* SideBarView.swift */,
 			);
 			path = SideBar;
 			sourceTree = "<group>";
@@ -104,6 +147,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED74895C217E5D7800D79A71 /* Build configuration list for PBXNativeTarget "SideBar" */;
 			buildPhases = (
+				7461A4F0981F2575372A0E61 /* [CP] Check Pods Manifest.lock */,
 				ED748943217E5D7800D79A71 /* Headers */,
 				ED748944217E5D7800D79A71 /* Sources */,
 				ED748945217E5D7800D79A71 /* Frameworks */,
@@ -122,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED74895F217E5D7800D79A71 /* Build configuration list for PBXNativeTarget "SideBarTests" */;
 			buildPhases = (
+				E8DD7DB59E4E1B83C8CD0CC9 /* [CP] Check Pods Manifest.lock */,
 				ED74894D217E5D7800D79A71 /* Sources */,
 				ED74894E217E5D7800D79A71 /* Frameworks */,
 				ED74894F217E5D7800D79A71 /* Resources */,
+				E602CCF3A7B26BC56E710B2D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +194,7 @@
 				TargetAttributes = {
 					ED748947217E5D7800D79A71 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 					ED748950217E5D7800D79A71 = {
 						CreatedOnToolsVersion = 10.0;
@@ -189,11 +236,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7461A4F0981F2575372A0E61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SideBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E602CCF3A7B26BC56E710B2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SideBarTests/Pods-SideBarTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SideBarTests/Pods-SideBarTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8DD7DB59E4E1B83C8CD0CC9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SideBarTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ED748944217E5D7800D79A71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED748968217E8B9B00D79A71 /* SideBarTableCell.swift in Sources */,
+				ED748963217E8B1700D79A71 /* MainView.swift in Sources */,
+				ED748965217E8B3C00D79A71 /* SideBarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,7 +459,9 @@
 		};
 		ED74895D217E5D7800D79A71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FB22E9BB293EF9E8114BEB5 /* Pods-SideBar.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -350,6 +471,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SideBar/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +480,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jtcodes.SideBar;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -365,7 +488,9 @@
 		};
 		ED74895E217E5D7800D79A71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6069A3282282D7D8F45842A /* Pods-SideBar.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -375,6 +500,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = SideBar/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -390,7 +516,9 @@
 		};
 		ED748960217E5D7800D79A71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88DAFD62487B65BDD33A77E4 /* Pods-SideBarTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5USU3QG354;
 				INFOPLIST_FILE = SideBarTests/Info.plist;
@@ -408,7 +536,9 @@
 		};
 		ED748961217E5D7800D79A71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5108B13141E141B4B6A5AFBE /* Pods-SideBarTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5USU3QG354;
 				INFOPLIST_FILE = SideBarTests/Info.plist;
