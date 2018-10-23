@@ -20,6 +20,14 @@ Add views to mainView like you would to view.
 <br>
 
 ```swift
+let imageView: UIImageView = {
+        let imgView = UIImageView()
+        return imgView
+}()
+imageView.snp.makeConstraints { make in
+  make.width.equalTo(view)
+  make.height.equalTo(view)
+}
 imageView.image = UIImage(named: "someimage")
 mainView.view.addSubview(imageView)
 ```
