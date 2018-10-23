@@ -21,8 +21,8 @@ Add views to mainView like you would to view.
 
 ```swift
 let imageView: UIImageView = {
-        let imgView = UIImageView()
-        return imgView
+   let imgView = UIImageView()
+   return imgView
 }()
 
 imageView.snp.makeConstraints { make in
