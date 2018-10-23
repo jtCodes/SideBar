@@ -2,4 +2,4 @@
 
 SideBar is a framework for creating an easy to access Safari-like bookmark sidebar
 
-![](gifdemo2.gif)
+![](gifdemo3.gif)
